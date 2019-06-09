@@ -1,5 +1,6 @@
 This python script compiles an image for the eeprom on the multicart. When using a 29sf040 eeprom, there’s 8 banks of 16 slots available.
 
+```
 Bank0
    ——— 0-game0_1.bin
    ——— 1-game0_2.bin
@@ -8,8 +9,15 @@ Bank0
    ——— f-empty.bin
 Bank1
    ——— 0-game1_1.bin
-   …
-
+   ———…
+…
+Bank7
+   ——— 0-game1_1.bin
+   ——— 1-game0_2.bin
+   ——— …
+   ——— e-game0_14.bin
+   ——— f-empty.bin
+```
 
 The script will add the appropriate kernel before the game rom. Each 4k slot will have the following strucutre:
 
