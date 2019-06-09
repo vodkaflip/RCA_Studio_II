@@ -24,7 +24,7 @@ where	x = high bank select (MSB)
 	    y = low bank select (LSB)
 ```
 
-See the readme in the eeprom directory for more details.
+See the readme in the eeprom directory for more details on how the eeprom image can be 'compiled'.
 
 ## CARTRIDGE SLOT
 Since the cartridge slot is unprotected on this 40 year old console, corrosion of the contacts is very likely. This will hamper correct operation of the cartridge and is a likely source of problems/crashes you may experience. If that’s the case, please ensure that the cartridge slot pins on the back row are clean. Use contact cleaner or similar if necessary.
