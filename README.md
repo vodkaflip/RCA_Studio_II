@@ -13,7 +13,8 @@ This is very similar to the multicart design, apart from the slot selection rota
 ## Updating Multicart
 If new ROMs become available, the flash memory on the cartridge can be updated to include these. This requires a programmer that supports the 39SF040 flash memory chip, which should be most devices. Since the chip is a PLCC32 package, an adapter is probably needed. Check the AtariAge forums for news and help if needed.
 
-SLOT STRUCTURE (4096 bytes)
+### SLOT STRUCTURE (4096 bytes)
+```
 $xy000-$xy3FF	KERNEL
 $xy400-$xy7FF	Low ROM area
 $xy800-$xyBFF	[not used by cart - console RAM]
@@ -21,6 +22,7 @@ $xyC00-$xyFFF	High ROM area
 
 where	x = high bank select (MSB)
 	    y = low bank select (LSB)
+```
 
 ## CARTRIDGE SLOT
 Since the cartridge slot is unprotected on this 40 year old console, corrosion of the contacts is very likely. This will hamper correct operation of the cartridge and is a likely source of problems/crashes you may experience. If that’s the case, please ensure that the cartridge slot pins on the back row are clean. Use contact cleaner or similar if necessary.
