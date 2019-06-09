@@ -23,6 +23,7 @@ $xyC00-$xyFFF	High ROM area
 where	x = high bank select (MSB)
 	    y = low bank select (LSB)
 ```
+The python script provided 'compiles' the 128 4k images into a 512k image that can be written to the eeprom. [explain file name extenions]
 
 ## CARTRIDGE SLOT
 Since the cartridge slot is unprotected on this 40 year old console, corrosion of the contacts is very likely. This will hamper correct operation of the cartridge and is a likely source of problems/crashes you may experience. If that’s the case, please ensure that the cartridge slot pins on the back row are clean. Use contact cleaner or similar if necessary.
