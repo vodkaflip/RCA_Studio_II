@@ -30,9 +30,7 @@ $c00 - $fff = game rom (only for larger games)
 The script will decide which kernel to use based on the extension of the game rom:
 ```
 .bin --> standard RCA Studio II kernel
-
 .vic --> Victory/MPA-02/PAL clone kernel
-
 .ch8 --> chip8 kernel by Marcel
 ```
 
