@@ -20,21 +20,20 @@ Bank7
 ```
 
 The script will add the appropriate kernel before the game rom. Each 4k slot will have the following strucutre:
-
+```
 $000 - $3ff = kernel
-
 $400 - $7ff = game rom
-
 $800 - $bff = dummy value
-
 $c00 - $fff = game rom (only for larger games)
+```
 
 The script will decide which kernel to use based on the extension of the game rom:
-
+```
 .bin --> standard RCA Studio II kernel
 
 .vic --> Victory/MPA-02/PAL clone kernel
 
 .ch8 --> chip8 kernel by Marcel
+```
 
 Note that not all chip8 game will work and even if they do, the keyboard layout may not make much sense.
