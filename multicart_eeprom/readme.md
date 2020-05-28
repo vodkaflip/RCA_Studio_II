@@ -19,7 +19,7 @@ Bank7
    ——— f-empty.bin
 ```
 
-The script will add the appropriate kernel before the game rom. Each 4k slot will have the following strucutre:
+The script will add the appropriate kernel before the game rom. Each 4k slot will have the following structure:
 ```
 $000 - $3ff = kernel
 $400 - $7ff = game rom
