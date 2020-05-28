@@ -1,4 +1,4 @@
-This python script compiles an image for the eeprom on the multicart. When using a 29sf040 eeprom, there’s 8 banks of 16 slots available.
+The python 3 script create_rom.py compiles an image for the eeprom on the multicart. When using a 29sf040 eeprom, there’s 8 banks of 16 slots available.
 
 ```
 Bank0
