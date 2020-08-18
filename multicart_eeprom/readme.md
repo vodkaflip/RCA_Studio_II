@@ -35,3 +35,5 @@ The script will decide which kernel to use based on the extension of the game ro
 ```
 
 Note that not all chip8 game will work and even if they do, the keyboard layout may not make much sense.
+
+The script will insert the ROM filename at $a00 - this enables the Emma 02 emulator to display the name of the ROM when using the multicart binary image.
