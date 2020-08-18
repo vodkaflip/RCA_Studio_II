@@ -23,7 +23,7 @@ The script will add the appropriate kernel before the game rom. Each 4k slot wil
 ```
 $000 - $3ff = kernel
 $400 - $7ff = game rom
-$800 - $bff = dummy value
+$800 - $bff = dummy value - this area is not mapped to the cartridge
 $c00 - $fff = game rom (only for larger games)
 ```
 
