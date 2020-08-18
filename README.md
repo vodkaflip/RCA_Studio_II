@@ -11,7 +11,7 @@ A switch selects whether $000-$3FF is addressable on the cartridge. This will by
 This is very similar to the multicart design, apart from the slot selection rotary encoders. And it uses a much smaller eprom: 2716 or 2732 - this needs to be set via a jumper. A switch (or jumper) can determine whether the console uses $000-$3ff from the cartridge or from the console. It allows different kernels to be run from the cart (e.g. Chip-8 games).
 
 ## Updating Multicart
-If new ROMs become available, the flash memory on the cartridge can be updated to include these. This requires a programmer that supports the 39SF040 flash memory chip, which should be most devices. Since the chip is a PLCC32 package, an adapter is probably needed. Check the AtariAge forums for news and help if needed.
+If new ROMs become available, the flash memory on the cartridge can be updated to include these. Note that the entire image (512k) will probably need to be rewritten to the chip. This requires a programmer that supports the 39SF040 flash memory chip, which should be most devices. Since the chip is a PLCC32 package, an adapter is probably needed. Check the AtariAge forums for news and help if needed.
 
 ### SLOT STRUCTURE (4096 bytes)
 ```
