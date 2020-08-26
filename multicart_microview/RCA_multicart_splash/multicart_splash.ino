@@ -38,15 +38,11 @@ const unsigned char splash[] = {
 
 void setup() {
   Serial.begin(9600);
-  // put your setup code here, to run once:
   EEPROM.write(0,0); //start slot
-  //Serial.print(EEPROM.length());
-
-
 }
 
 void loop() {
-    // put your main code here, to run repeatedly:
+// put the splash screen in EEPROM from 0x0010 onwards to save on RAM
   unsigned int i,j;
     for (i=0; i<384; i++) {
     EEPROM.write(i+16,splash[i]);
