@@ -6,10 +6,10 @@ Revisions 4.5 and 5.0 of the RCA Studio II Multicart can accomodate a Sparkfun M
 
 The two hex encoders and the resistor network can be removed. The following components need to be added:
 
-Mechanical Encoder: Mouser PEC12R-4120F-S0012 (https://www.mouser.be/ProductDetail/652-PEC12R-4120F-S12)
-Sparkfun Microview: https://www.mouser.be/Search/Refine?Keyword=microview
-C1-C4: 0.1uF
-optional: a 6-pin header to connect an FTDI interface that allows the Microview module to be reprogrammed (if it is not socketed)
+* Mechanical Encoder: Mouser PEC12R-4120F-S0012 (https://www.mouser.be/ProductDetail/652-PEC12R-4120F-S12)
+* Sparkfun Microview: https://www.mouser.be/Search/Refine?Keyword=microview
+* C1-C4: 0.1uF
+* optional: a 6-pin header to connect an FTDI interface that allows the Microview module to be reprogrammed (if it is not socketed)
 
 
 ## Software
